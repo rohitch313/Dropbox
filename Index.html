@@ -2,378 +2,1089 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/css/style.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Dropbox</title>
+  <!-- Include Bootstrap JavaScript -->
+
+  <link rel="stylesheet" href="Assets/css/style.css">
+
+
+  <link rel="icon" type="image/png" href="Assets/Images/Dropbox.png">
+
+
+  <title>Dropbox</title>
 </head>
 
 <body>
-    <div class=" contain-fluid ">
-        <!--New Section1-->
-        <div class="text-center bg-dark pt-5 black-box">
-            <h1 class="text-light black-headline">Join over 700 million registered</br> users who trust Dropbox</h1>
-            <p class="pt-2 text-light black-paragraph">Easy to use, reliable, private, and secure. It’s no wonder
-                Dropbox is the choice for storing and sharing</br> your most important files.
+  <div class=" container-fluid ">
+    <!--strat Navbar section-0-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fs-6  fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Assets/Images/Dropbox.png" class="ms-2" alt="" width="30" height="24">
+          <a class="navbar-brand" href="#"><b>Dropbox</b></a>
+        </a>
 
-            </p>
-            <button type="button" class="btn btn-primary p-4 mt-2 text-dark black-box-button">Sign up for free<i
-                    class="fas fa-arrow-right ps-4" style="color: #151414;"></i></button>
-            <div class="embed-responsive embed-responsive-16by9 pt-5">
-                <video class="embed-responsive-item black-box-video" autoplay muted loop>
-                    <source src="Assets/Images/Dropbox_Homepage.mp4" class="" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Why Dropbox?
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link  active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Solutions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
+            </li>
+
+          </ul>
+          <ul class="nav justify-content-end  ">
+            <li class="nav-item ">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Get app</a>
+            </li>
+          </ul>
+          <ul class="nav justify-content-end ">
+            <li class="nav-item ">
+              <a class="nav-link active " href="#" tabindex="-1" aria-disabled="true">Sign up</a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Login</a>
+            </li>
+          </ul>
+          <div class="">
+            <button type="button" class="btn btn-primary btn-lg">Get Starting &nbsp;&nbsp;<i
+                class="fas fa-thin fa-arrow-right text-light"></i></button>
+          </div>
+
+          </ul>
+          <!-- <form class="d-flex">
+                        <span class="navbar-text">
+                            Navbar text with an inline element
+                          </span>
+                      </form> -->
+        </div>
+      </div>
+    </nav>
+    <!--end Navbar section-0-->
+    <!--New Section1 Rohit-->
+    <div class="text-center pt-5 black-box">
+      <h1 class="text-light black-headline">Join over 700 million registered</br> users who trust Dropbox</h1>
+      <p class="p-2 text-light black-paragraph">Easy to use, reliable, private, and secure. It’s no wonder
+        Dropbox is the choice for storing and sharing</br> your most important files.
+
+      </p>
+      <button type="button" class="btn btn-primary p-4 mt-2 text-dark black-box-button">Find your plan
+        <i class="fas fa-arrow-right ps-4 text-dark"></i></button>
+      <div class="embed-responsive embed-responsive-16by9 pt-5">
+        <video class="embed-responsive-item black-box-video" autoplay muted loop>
+          <source src="Assets/Images/Dropbox_Homepage.mp4" class="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="container-fluid ps-3 ps-md-5 pe-md-5 pe-3">
+        <h1 class="pt-5 black-headline text-light">See what sets Dropbox apart</h1>
+        <div class="row pt-5 pb-5 text-start">
+          <div class="col-md-6  pb-5 pb-lg-0 pd-md-5 col-lg-3 col-12">
+            <div class="card black-box-card border-0">
+              <img src="Assets/Images/smile.svg " class="card-img-top  section_two_images " alt="...">
+              <div class="card-body">
+
+                <h6 class="card-title text-light pt-md-3 pt-0 text-start">Your files, not ours</h6>
+                <p class="card-text text-light pt-3">With Dropbox, your files belong to you, not us, so you
+                  can be sure we’re not reselling your data.</p>
+
+              </div>
             </div>
-            <h1 class="pt-5 black-headline text-light">See what sets Dropbox apart</h1>
-            <div class="row pt-5 p-5 text-start">
-                <div class="col-md-3 col-12">
-                    <div class="card bg-dark border-0">
+          </div>
 
-                        <div class="card-body">
-                            <i class="fa-sharp fa-regular fa-face-smile fa-2xl" style="color: #fafafa;"></i>
-                            <h6 class="card-title text-light pt-4 text-start">Your files, not ours</h6>
-                            <p class="card-text text-light pt-3">With Dropbox, your files belong to you, not us, so you
-                                can be sure we’re not reselling your data.</p>
+          <div class="col-md-6  pb-5 pb-lg-0 pd-md-5 col-lg-3 col-12">
+            <div class="card black-box-card border-0">
+              <img src="Assets/Images/cloud.svg  " class="card-img-top  section_two_images " alt="...">
+              <div class="card-body">
 
-                        </div>
-                    </div>
+                <h6 class="card-title text-light pt-md-3 pt-0">All your files in one place
+                </h6>
+                <p class="card-text text-light pt-3">Store computer backups, photo libraries, thousands of
+                  documents—all your files, in the same place.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6  pb-5 pb-md-0 col-lg-3 col-12">
+            <div class="card black-box-card border-0">
+              <img src="Assets/Images/stars.svg  " class="card-img-top  section_two_images " alt="...">
+              <div class="card-body">
+
+                <h6 class="card-title text-light pt-md-3 pt-0">One-of-a-kind functionality</h6>
+                <p class="card-text text-light pt-3">Store files as large as 2 TB each, sync at light speed,
+                  and allow anyone to preview nearly 200 file types.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6  pb-5 pb-md-0 col-lg-3 col-12">
+            <div class="card black-box-card border-0">
+              <img src="Assets/Images/security.svg  " class="card-img-top  section_two_images " alt="...">
+              <div class="card-body  ">
+
+                <h6 class="card-title text-light pt-md-3 pt-0 ">Ease of use and security</h6>
+                <p class="card-text text-light pt-3">Some quick example text to build on the card title and
+                  make up the bulk of the card's content.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--New Section 2 Rohit-->
+
+      <div class=" section_two text-center">
+        <h1 class="pt-5 section_two_headline text-dark">A set of products to help you do more</h1>
+        <div class="container-fluid ps-md-5 pe-md-5 ps-3 pe-3">
+          <div class="row pt-5 pb-5 pb-md-0 text-start">
+            <div class="col-md-6 col-lg-3 col-12">
+              <div class="card section_two_card_color border-0">
+                <img src="Assets/Images/Dropbox.svg  " class="card-img-top  section_two_images " alt="...">
+
+
+                <div class="card-body pb-md-5 pb-0 pb-lg-0 ">
+
+                  <h6 class="card-title text-dark pt-2 text-start">Dropbox
+                  </h6>
+                  <p class="card-text text-dark pt-3">Securely store, organize, and share all your files.
+
+                  </p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow  pt-5 "></i></a>
+
                 </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-dark border-0">
-
-                        <div class="card-body">
-                            <i class="fas fa-cloud-arrow-up fa-2xl" style="color: #f5f7f9;"></i>
-                            <h6 class="card-title text-light pt-4">All your files in one place
-                            </h6>
-                            <p class="card-text text-light pt-3">Store computer backups, photo libraries, thousands of
-                                documents—all your files, in the same place.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-dark border-0">
-
-                        <div class="card-body">
-                            <i class="fas fa-cloud-arrow-up fa-2xl" style="color: #f5f7f9;"></i>
-                            <h6 class="card-title text-light pt-4">One-of-a-kind functionality</h6>
-                            <p class="card-text text-light pt-3">Store files as large as 2 TB each, sync at light speed,
-                                and allow anyone to preview nearly 200 file types.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-dark border-0">
-
-                        <div class="card-body  ">
-                            <i class="fas fa-cloud-arrow-up fa-2xl" style="color: #f5f7f9;"></i>
-                            <h6 class="card-title text-light pt-4 ">Ease of use and security</h6>
-                            <p class="card-text text-light pt-3">Some quick example text to build on the card title and
-                                make up the bulk of the card's content.</p>
-
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
 
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_padding section_two_card_color border-0">
+                <img src="Assets/Images/Sign.svg" class="card-img-top section_two_images" alt="...">
 
 
+                <div class="card-body pb-md-5 pb-0 pb-lg-0 ">
 
-            <!--New Section 2-->
-            <div class=" section_two text-center">
-                <h1 class="pt-5 black-headline text-dark">A set of products to help you do more</h1>
-                <div class="row pt-5 p-5 text-start">
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Dropbox.svg  " class="card-img-top  section_two_images " alt="...">
+                  <h6 class="card-title text-dark pt-2">Sign
+                  </h6>
+                  <p class="card-text text-dark pt-3">Streamline your document workflows with legally-binding
+                    eSignatures.</p>
+                  <a href="#" class="card-link section_two_link ">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow pt-3 "></i></a>
 
-
-                            <div class="card-body">
-                              
-                                <h6 class="card-title text-dark pt-2 text-start">Dropbox
-                                </h6>
-                                <p class="card-text text-dark pt-3">Securely store, organize, and share all your files.
-
-                                </p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-5" style="color: #151414;"></i></a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Sign.svg" class="card-img-top section_two_images" alt="...">
-
-
-                            <div class="card-body">
-                              
-                                <h6 class="card-title text-dark pt-2">Sign
-                                </h6>
-                                <p class="card-text text-dark pt-3">Streamline your document workflows with legally-binding eSignatures.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Docsend.svg" class="card-img-top section_two_images" alt="...">
-
-
-                            <div class="card-body">
-                                
-                                <h6 class="card-title text-dark pt-2">DocSend</h6>
-                                <p class="card-text text-dark pt-3">Securely share your documents with real-time insights, so you know what's most impactful.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Backup.svg" class="card-img-top section_two_images " alt="...">
-
-
-                            <div class="card-body  ">
-                             
-                                <h6 class="card-title text-dark pt-2 ">Backup</h6>
-                                <p class="card-text text-dark pt-3">Automatically back up important files on your devices to the cloud and easily restore them.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-
-
-                <div class="row pt-5 p-5 text-start">
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Capture.svg" class="card-img-top section_two_images" alt="...">
-
-
-                            <div class="card-body">
-
-                                <h6 class="card-title text-dark pt-2 text-start">Capture</h6>
-                                <p class="card-text text-dark pt-3">Get your message across with screenshots, GIFs, or videos recorded right on your screen.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Transfer.svg" class="card-img-top section_two_images" alt="...">
-
-
-                            <div class="card-body">
-                              
-                                <h6 class="card-title text-dark pt-2">Transfer
-                                </h6>
-                                <p class="card-text text-dark pt-3">Quickly and securely deliver large files—up to 100 GB—to anyone.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Paper.svg" class="card-img-top section_two_images" alt="...">
-
-
-                            <div class="card-body">
-                               
-                                <h6 class="card-title text-dark pt-2">Paper</h6>
-                                <p class="card-text text-dark pt-3">Create collaborative documents to coordinate work and drive projects forward.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-12">
-                        <div class="card section_two_card border-0">
-                            <img src="Assets/Images/Passwords.svg" class="card-img-top section_two_images" alt="...">
-
-                            <div class="card-body  ">
-                            
-                                <h6 class="card-title text-dark pt-2 ">Passwords</h6>
-                                <p class="card-text text-dark pt-3">Automatically store unlimited passwords in one central, secure place.</p>
-                                <a href="#" class="card-link section_two_link">Learn More <i
-                                    class="fas fa-arrow-right ps-4 pt-3" style="color: #151414;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_padding section_two_card_color border-0">
+                <img src="Assets/Images/Docsend.svg" class="card-img-top section_two_images" alt="...">
+
+
+                <div class="card-body">
+
+                  <h6 class="card-title text-dark pt-2">DocSend</h6>
+                  <p class="card-text text-dark pt-3">Securely share your documents with real-time insights, so you know
+                    what's most impactful.</p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow  pt-3"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_padding section_two_card_color border-0">
+                <img src="Assets/Images/Backup.svg" class="card-img-top section_two_images " alt="...">
+
+
+                <div class="card-body  ">
+
+                  <h6 class="card-title text-dark pt-2 ">Backup</h6>
+                  <p class="card-text text-dark pt-3">Automatically back up important files on your devices to the cloud
+                    and easily restore them.</p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow  pt-3"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid ps-md-5 pe-md-5 ps-3 pe-3">
+          <div class="row pt-0 pt-md-5 pb-5 text-start">
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_color border-0">
+                <img src="Assets/Images/Capture.svg" class="card-img-top section_two_images" alt="...">
+
+
+                <div class="card-body pb-md-5 pb-0 pb-lg-0 ">
+
+                  <h6 class="card-title text-dark pt-2 text-start">Capture</h6>
+                  <p class="card-text text-dark pt-3">Get your message across with screenshots, GIFs, or videos recorded
+                    right on your screen.</p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow  pt-3"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_color section_two_card_padding border-0">
+                <img src="Assets/Images/Transfer.svg" class="card-img-top section_two_images" alt="...">
+
+
+                <div class="card-body pb-md-5 pb-0 pb-lg-0 ">
+
+                  <h6 class="card-title text-dark pt-2">Transfer
+                  </h6>
+                  <p class="card-text text-dark pt-3">Quickly and securely deliver large files—up to 100 GB—to anyone.
+                  </p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow  pt-3"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_padding section_two_card_color border-0">
+                <img src="Assets/Images/Paper.svg" class="card-img-top section_two_images" alt="...">
+
+
+                <div class="card-body">
+
+                  <h6 class="card-title text-dark pt-2">Paper</h6>
+                  <p class="card-text text-dark pt-3">Create collaborative documents to coordinate work and drive
+                    projects forward.</p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow  pt-3"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3  col-12">
+              <div class="card section_two_card_padding section_two_card_color border-0">
+                <img src="Assets/Images/Passwords.svg" class="card-img-top section_two_images" alt="...">
+
+                <div class="card-body  ">
+
+                  <h6 class="card-title text-dark pt-2 ">Passwords</h6>
+                  <p class="card-text text-dark pt-3">Automatically store unlimited passwords in one central, secure
+                    place.</p>
+                  <a href="#" class="card-link section_two_link">Learn More <i
+                      class="fas fa-arrow-right section_two_arrow pt-3"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--Section 4 Hariom -->
+    <div class="row section-4 ">
+      <p class="section-4title text-center text-light">How will you use Dropbox? </p>
+      <div class="col-md-6 col-sm-12 pe-4 pt-4 ps-4 ps-md-4 pe-md-2 pb-4 mb-4">
+        <div class="card border-0 ">
+          <img src="Assets/Images/Segmentation_1@2x.png" class="card-img-top secton_4_card_Image" alt="...">
+          <div class="card-body section-4div p-4 text-light">
+
+            <p class="card-text fs-3">For Work</p>
+            <div class="wrrap">
+              <p class="card-text fs-6 pb-md-5 pb-5 pb-lg-5">Work efficiently with teammates and clients, stay in sync
+                on
+
+                projects, and keep company data safe—all in one place.
+              </p>
+            </div>
+            <button type="button" class="btn btn-primary fs-5 p-3 mb-lg-4 mb-md-4 mb-4 rounded-0 ps-4">
+              <h6>Get Dropbox For Work &nbsp;&nbsp; &nbsp;&nbsp;<i class="fas fa-thin fa-arrow-right "></i> &nbsp;&nbsp;
+                &nbsp;&nbsp;</h6>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6  col-sm-12 pe-4 pt-4 ps-4 ps-md-3 pb-4 mb-4">
+        <div class="card border-0 ">
+          <img src="Assets/Images/Segmentation_2@2x.png" class="card-img-top secton_4_card_Image" alt="...">
+          <div class="card-body section-4div p-4 text-light">
+
+            <p class="card-text fs-3 ">For personal use</p>
+            <div class="wrrap">
+              <p class="card-text fs-6 pb-md-5  pb-5 pb-lg-4">Keep everything that’s important to you and your family
+                shareable
+                and safe in one place. Back up files in the cloud, share photos and videos, and more..</p>
+            </div>
+            <button type="button" class="btn btn-primary fs-5 p-3 mb-lg-4 mb-md-4 mb-4 rounded-0 ps-4">
+              <h6>Get Dropbox for personal use &nbsp;&nbsp; &nbsp;&nbsp;<i class="fas fa-thin fa-arrow-right "></i>
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;</h6>
+            </button>
+          </div>
+        </div>
+      </div>
+      <h1 class="pt-5 black-headline text-light text-center">Cloud storage you can count on</h1>
+      <div class="row  pb-5 p-md-4 p-lg-5 text-start">
+        <div class="col-md-6 col-lg-3  col-12">
+          <div class="card section-4-card border-0">
+
+            <div class="card-body">
+              <h2 class=" text-light black-headline-title ">56%</h2>
+              <h6 class="card-title text-light pt-2 fs-4 text-start">of Fortune 500 companies</h6>
+              <p class="card-text text-light fs-6 pt-3">have at least one Dropbox team plan.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3  col-12">
+          <div class="card section-4-card border-0">
+
+            <div class="card-body">
+              <h2 class=" text-light black-headline-title">1B+</h2>
+              <h6 class="card-title text-light pt-2 fs-5 text-start">mobile app downloads</h6>
+              <p class="card-text text-light fs-6 pt-3">with Editors’ Choice Awards from the Google Play and Apple App
+                Store.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3  col-12">
+          <div class="card section-4-card border-0">
+
+            <div class="card-body">
+              <h2 class=" text-light black-headline-title">600k+</h2>
+              <h6 class="card-title text-light pt-2 fs-4 text-start">teams globally</h6>
+              <p class="card-text text-light fs-6 pt-3">use Dropbox to share work, safeguard content, and grow their
+                business.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-12">
+          <div class="card section-4-card border-0">
+            <div class="card-body">
+              <h2 class=" text-light black-headline-title">4.5B</h2>
+              <h6 class="card-title text-light pt-2 fs-4 text-start">connections and counting</h6>
+              <p class="card-text text-light fs-6 pt-3">created through Dropbox file sharing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row Dropbox_help_you">
+      <div class="col-12 border-0  pb-5 ">
+        <div class="card-body text-center">
+          <h5 class="card-title pt-5 fs-1">What else can Dropbox help you do?</h5>
+          <p class="card-text text-dark">Dropbox brings everything—traditional files, cloud content, and web
+            shortcuts—together in one place.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-light ps-0">
+      <div class="col-md-6 col-sm-12 ">
+        <div class="accordion " id="accordionExample">
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingOne">
+              <button class="accordion-button border-bottom-0 bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                <h6 class="fs-5"> Get 2 GB of cloud storage for free with <br> Dropbox Basic</h6>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Save and access your files from any device, and share them with anyone. Discover what Dropbox can do
+                  for you- get a free account, no strings attached!</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingTwo">
+              <button class="accordion-button border-bottom-0 collapsed bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                aria-controls="collapseTwo">
+                <h6 class="fs-5">Dropbox Plus has room for all your content <br>with space to spare </h6>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse  " aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Safeguard your photos, personal docs, work files, and much more. Save everything with 2,000 GB of
+                  space—and get some handy tools to help you stay organized.</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingThree">
+              <button class="accordion-button border-bottom-0 bg-light text-dark  shadow-none " type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                aria-controls="collapseThree">
+                <h6 class="fs-5">Dropbox Family is a place for everyone<br> with space for everything</h6>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse  " aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Share 2,000 GB of storage between 6 people. Each family plan member gets their own private Dropbox
+                  account for less than the price of two Plus plans.</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingFour">
+              <button class="accordion-button border-bottom-0  bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                aria-controls="collapseFour">
+                <h6 class="fs-5">Make life easier for you and your clients<br> with Dropbox Professional</h6>
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse  " aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Get our full suite of premium productivity and sharing tools—plus 3,000 GB of space. Dropbox
+                  Professional makes it easier for you to work with colleagues and clients.</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingFive">
+              <button class="accordion-button border-bottom-0  bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"
+                aria-controls="collapseFive">
+                <h6 class="fs-5">Streamline your document workflow with<br> Dropbox Sign</h6>
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse  " aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Save yourself time and hassle with Dropbox Sign. You can sign legally-binding agreements with a few
+                  clicks. And it's just as easy to request a signature from someone else.</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingSix">
+              <button class="accordion-button border-bottom-0  bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true"
+                aria-controls="collapseSix">
+                <h6 class="fs-5">Centralize, secure, and easily access your<br> work with Dropbox Standard</h6>
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse  " aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Safeguard sensitive and confidential info. Automate time-consuming processes with powerful admin and
+                  collaboration tools. And easily recover your work if something ever goes wrong. Minimum 3 users per
+                  plan.</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingSeven">
+              <button class="accordion-button border-bottom-0  bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true"
+                aria-controls="collapseSeven">
+                <h6 class="fs-5">DocSend lets you track, analyze, and <br>optimize your content</h6>
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse  " aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Safely share business-critical documents and get real-time performance insights. DocSend helps you
+                  manage and optimize your company’s most important content.</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 ">
+            <h2 class="accordion-header border-top" id="headingEight">
+              <button class="accordion-button border-bottom-0  bg-light text-dark  shadow-none" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true"
+                aria-controls="collapseEight">
+                <h6 class="fs-5">Proactively detect threats to your team’s <br>content with Dropbox Advanced</h6>
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse  " aria-labelledby="headingEight"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                <p>Save and access your files from any device, and share them with anyone. Discover what Dropbox can do
+                  for you- get a free account, no strings attached!</p>
+                <p class="fs-5 p-2 text-dark"><a href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 bg-info">
+        <div class="accordion-img">
+          <img src="Assets/Images/basic_hero_ui@2x.png" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--New Section 3 Rohit -->
+
+    <div class=" section_three text-center">
+      <h1 class="pt-5 black-headline text-dark">Get more out of Dropbox by</br> connecting with the tools you love</h1>
+      <div class="mt-3 mb-3"><a href="#" class="card-link section_three_link text-dark ">Learn more about partner
+          integrations</a>
+      </div>
+      <div class="container-fluid ps-md-5 ps-3 pe-md-5 pe-3">
+        <div class="row pt-5 pb-5 text-start">
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card border-0">
+              <img src="Assets/Images/zoom.webp " class="card-img-top  section_three_images " alt="...">
+
+
+              <div class="card-body  pb-md-5 pb-0 pb-lg-0">
+
+                <h6 class="card-title text-dark pt-2 text-start">Zoom
+                </h6>
+                <p class="card-text text-dark pt-3">Enhance remote collaboration with Zoom instant meetings and video
+                  recordings.
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card pt-5 pt-md-0  border-0">
+              <img src="Assets/Images/slack.webp" class="card-img-top section_three_images" alt="...">
+
+
+              <div class="card-body  pb-md-5 pb-0 pb-lg-0">
+
+                <h6 class="card-title text-dark pt-2">Slack
+                </h6>
+                <p class="card-text text-dark pt-3">Bring Slack conversations and Dropbox content together to keep teams
+                  in sync.</p>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card pt-5 pt-md-0 border-0">
+              <img src="Assets/Images/Adobe.webp" class="card-img-top section_three_images" alt="...">
+
+
+              <div class="card-body">
+
+                <h6 class="card-title text-dark pt-2">Adobe Creative Cloud</h6>
+                <p class="card-text text-dark pt-3">Securely share your documents with real-time insights, so you know
+                  what's most impactful.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card pt-5 pt-md-0  border-0">
+              <img src="Assets/Images/microsoft.webp" class="card-img-top section_three_images " alt="...">
+
+
+              <div class="card-body  ">
+
+                <h6 class="card-title text-dark pt-2 ">Microsoft Office</h6>
+                <p class="card-text text-dark pt-3">Easily and securely send files to clients and vendors from within
+                  Adobe Photoshop.</p>
+
+              </div>
+            </div>
+          </div>
         </div>
 
 
-         <!--New Section 3-->
-         <div class=" section_three bg-light text-center">
-            <h1 class="pt-5 black-headline text-dark">Get more out of Dropbox by</br> connecting with the tools you love</h1>
-           <div class="mt-3 mb-3"><a href="#" class="card-link section_three_link ">Learn more about partner integrations</a></div> 
-            <div class="row pt-5 p-5 text-start">
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/zoom.webp " class="card-img-top  section_three_images " alt="...">
+
+        <div class="row  pb-5 text-start">
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card border-0">
+              <img src="Assets/Images/Google.webp" class="card-img-top section_three_images" alt="...">
 
 
-                        <div class="card-body">
-                          
-                            <h6 class="card-title text-dark pt-2 text-start">Zoom
-                            </h6>
-                            <p class="card-text text-dark pt-3">Enhance remote collaboration with Zoom instant meetings and video recordings.
+              <div class="card-body  pb-md-5 pb-0 pb-lg-0">
 
-                            </p>
-                           
-                        </div>
-                    </div>
-                </div>
+                <h6 class="card-title text-dark pt-2 text-start">Google Workspace</h6>
+                <p class="card-text text-dark pt-3"></p> Create, edit, and share Google Docs, Sheets, and Slides in
+                Dropbox.
 
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/slack.webp" class="card-img-top section_three_images" alt="...">
+                </p>
 
-
-                        <div class="card-body">
-                          
-                            <h6 class="card-title text-dark pt-2">Slack
-                            </h6>
-                            <p class="card-text text-dark pt-3">Bring Slack conversations and Dropbox content together to keep teams in sync.</p>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/Adobe.webp" class="card-img-top section_three_images" alt="...">
-
-
-                        <div class="card-body">
-                            
-                            <h6 class="card-title text-dark pt-2">Adobe Creative Cloud</h6>
-                            <p class="card-text text-dark pt-3">Securely share your documents with real-time insights, so you know what's most impactful.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/microsoft.webp" class="card-img-top section_three_images " alt="...">
-
-
-                        <div class="card-body  ">
-                         
-                            <h6 class="card-title text-dark pt-2 ">Microsoft Office</h6>
-                            <p class="card-text text-dark pt-3">Easily and securely send files to clients and vendors from within Adobe Photoshop.</p>
-
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card pt-5 pt-md-0  border-0">
+              <img src="Assets/Images/Trello.webp" class="card-img-top section_three_images" alt="...">
 
 
+              <div class="card-body">
 
-            <div class="row ps-5 pe-5 pb-5 text-start">
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/Google.webp" class="card-img-top section_three_images" alt="...">
+                <h6 class="card-title text-dark pt-2">Trello
+                </h6>
+                <p class="card-text text-dark pt-3">Collaborate on team projects in Trello with Dropbox content.</p>
 
-
-                        <div class="card-body">
-
-                            <h6 class="card-title text-dark pt-2 text-start">Google Workspace</h6>
-                            <p class="card-text text-dark pt-3"></p> Create, edit, and share Google Docs, Sheets, and Slides in Dropbox.
-                                
-                                </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/Trello.webp" class="card-img-top section_three_images" alt="...">
-
-
-                        <div class="card-body">
-                          
-                            <h6 class="card-title text-dark pt-2">Trello
-                            </h6>
-                            <p class="card-text text-dark pt-3">Collaborate on team projects in Trello with Dropbox content.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/Canvas.webp" class="card-img-top section_three_images" alt="...">
-
-
-                        <div class="card-body">
-                           
-                            <h6 class="card-title text-dark pt-2">Canvas</h6>
-                            <p class="card-text text-dark pt-3">Upload course files or assignments straight from Dropbox to Canvas.</p>
-                           
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-12">
-                    <div class="card bg-light border-0">
-                        <img src="Assets/Images/Asana.webp" class="card-img-top section_three_images" alt="...">
-
-                        <div class="card-body  ">
-                        
-                            <h6 class="card-title text-dark pt-2 ">Asana</h6>
-                            <p class="card-text text-dark pt-3">Track all of your team’s work with Asana while keeping Dropbox content alongside.</p>
-                          
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card pt-5 pt-md-0 border-0">
+              <img src="Assets/Images/Canvas.webp" class="card-img-top section_three_images" alt="...">
+
+
+              <div class="card-body  pb-md-5 pb-0 pb-lg-0">
+
+                <h6 class="card-title text-dark pt-2">Canvas</h6>
+                <p class="card-text text-dark pt-3">Upload course files or assignments straight from Dropbox to
+                  Canvas.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3  col-12">
+            <div class="card section_three_card pt-5 pt-md-0  border-0">
+              <img src="Assets/Images/Asana.webp" class="card-img-top section_three_images" alt="...">
+
+              <div class="card-body  ">
+
+                <h6 class="card-title text-dark pt-2 ">Asana</h6>
+                <p class="card-text text-dark pt-3">Track all of your team’s work with Asana while keeping Dropbox
+                  content alongside.</p>
+
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
+<!--Carousel section by Rohit-->
+    <div class="Silder last-section ">
+      <div class="container-fluid p-lg-5 p-md-4 p-4">
+        <div class="row col-12 text-light text-center last-section-heading pb-5 ">
+          <p class="fs-1 ps-5 px-5 pb-0">Trusted by over 700 million <br>registered users and 600,000 teams</p>
+          <a href="#" class="text-light fs-5">View more customer stories</a>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+        
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12 ">
+                    <img class="d-block w-100" src="Assets/Images/one.webp" alt="First slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_1">
+                    <h3  class="h3one">“Dropbox has been tremendously helpful for social media. I can hop on anytime and pull whatever
+                      photo is inspiring me to post.”</h3>
+                    <p class="h3one">Read the full story</p>
+                    <p class="crousel_footer h3one ">Mary Ashley Krogh (MAK), Illustrator and Graphic Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12 ">
+                    <img class="d-block w-100" src="Assets/Images/two.webp" alt="Second slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_2">
+                    <h3 class="h3one">
+                      “Dropbox increased our team’s collaboration while working from home, which has increased our
+                      flexibility and could revolutionize our office culture.”</h3>
+                    <p class="h3one">Read the full story</p>
+                    <p class="crousel_footer2 h3one">Adam Montgomery, Senior Manager of Programming, Sundance Film Festival
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12 ">
+                    <img class="d-block w-100" src="Assets/Images/3.webp" alt="Third slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_3">
+                    <h3 class="h3one">“We’re a grass-roots nonprofit. When we use a tool that the rest of the design world uses, it
+                      helps professionalize our organization.”</h3>
+                    <p class="h3one">Read the full story</p>
+                    <p class="crousel_footer h3one">Ann Kappes, Director of Art Partnerships at Creativity Explored</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12 ">
+                    <img class="d-block w-100" src="Assets/Images/four.webp" alt="Third slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_4">
+                    <h3 class="h3seven">“Dropbox easily allows me to transfer what’s in my mind to another person.”</h3>
+                    <p class="h3seven">Read the full story</p>
+                    <p class="crousel_footer3 h3seven">Murray Bell, Founder and Executive Creative Director of Semi Permanent
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12 ">
+                    <img class="d-block w-100" src="Assets/Images/two.webp" alt="Third slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_5">
+                    <h3 class="h3one">“Our team is working remotely—everyone's in a different time zone. Dropbox is a great hub for us
+                      to all work at once and seamlessly share files.”</h3>
+                    <p class="h3one">Read the full story</p>
+                    <p class="crousel_footer_4 h3one">Sophia Chang, Illustrator and Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12  ">
+                    <img class="d-block w-100" src="Assets/Images/six.webp" alt="Third slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_6">
+                    <h3 class="h3seven">“Dropbox version control is very important. You may want to go back to an earlier version
+                      because there's an idea in there that you really like.”</h3>
+                    <p class="h3seven">Read the full story</p>
+                    <p class="crousel_footer h3seven">Sahir Zaveri, CEO of King Children</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12 col-lg-6 col-12">
+                    <img class="d-block w-100" src="Assets/Images/seven.webp" alt="Third slide">
+                  </div>
+                  <div class="col-md-12 col-lg-6 col-12 p-3 bg_slide_7">
+                    <h3 class="h3seven">
+                      “Creative growth happens when you don’t have to worry about managing storage.”</h3>
+                    <p class="h3seven">Read the full story</p>
+                    <p class="crousel_footer3 h3seven">Andi Scull, Founder and Creative Director, HOPE Organization</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev carousell_first hide" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next carouselR_first hide" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div id="carouselExampleIndicators2" class="carousel slide mt-4">
+        
+
+          <div class="carousel-inner ">
+            <!-- Carousel items go here -->
+          </div>
+          <button class="carousel-control-prev  carousl" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <div class="num"></div>
+          <button class="carousel-control-next carousR" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        
+        </div>
+
+      </div> <!-- .item -->
+
+
+  
+    <div class="row  crausel-heading">
+      <div class="col-lg-8 col-12 col-md-12 ps-5">
+        <h1 class=" text-light mb-5">For all things worth sharing.</h1>
+      </div>
+  
+  
+      <div class="col-lg-4 col-md-12 col-12 ps-5">
+        <button type="button" class="btn btn-primary p-4 mt-2   mb-5  text-dark crousel-button">Refer a friend
+          <i class="fas fa-arrow-right ps-5 text-dark"></i></button>
+      </div>
    
-    <!-- Optional JavaScript; choose one of the two! -->
+  </div>
+  </div>
+  </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!--footer Rohit-->
+  <footer>
+    <!-- <div class="container p-0"> -->
+    <div class="row pt-5 pb-5">
+      <div class="col-md-4 col-lg-2 col-6">
+        <ul class="text-light footer_list">
+          <li class="pb-3">
+            <h5>
+              Dropbox</h5>
+          </li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Desktop app</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Mobile app</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Integrations</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Features</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Solutions</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Solutions</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Security</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Advance access</a></li>
+
+
+
+
+        </ul>
+      </div>
+      <div class="col-md-4 col-lg-2 col-6">
+        <ul class="text-light footer_list">
+          <li class="pb-4">
+            <h5>
+              Products</h5>
+          </li>
+          <li><a href="#" class="footer_link">Plus
+
+
+
+
+            </a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Professional</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Business</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Enterprise</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Dropbox Sign</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">
+              DocSend</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Plans</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">
+              Product updates</a></li>
+
+
+
+
+
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-6">
+        <ul class="text-light footer_list">
+          <li class="pb-4 pt-3 pt-md-0">
+            <h5>
+              Support
+            </h5>
+
+
+
+          </li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Help center</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Contact us</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Privacy & terms</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Cookie policy</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Cookies & CCPA preferences
+            </a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">
+              AI principles</a></li>
+          <l class="footer_list_padding" v><a href="#" class="footer_link"> Sitemap</a></li>
+            <li><a href="#" class="footer_link"> Learning resources</a></li>
+
+
+
+
+
+
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-lg-2 col-6">
+        <ul class="text-light footer_list">
+          <li class="pb-4 pt-3 pt-md-0">
+            <h5>
+              Community
+            </h5>
+
+
+
+
+
+          </li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Blog</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Developers</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Community forums</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Referrals</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Reseller partners</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Integration partners</a></li>
+
+
+
+
+
+        </ul>
+      </div>
+      <div class="col-md-4 col-lg-3 col-6">
+        <ul class="text-light footer_list">
+          <li class="pb-4 pt-3 pt-md-0">
+            <h5>
+              Company
+            </h5>
+
+
+
+          </li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> About us</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">Jobs</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> Investor relations</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link"> ESG</a></li>
+          <li class="footer_list_padding"><a href="#" class="footer_link">
+              Find a partner</a></li>
+
+
+
+
+
+        </ul>
+      </div>
+    </div>
+    <div class="row social-icons pb-4">
+      <div class="col-12 col-md-3 text-start ps-5 pb-3 ">
+        <div>
+          <a class="footer_icon_linkk ">
+            <i class="fab fa-twitter "></i></a>
+          <a class="footer_icon_linkk ">
+            <i class="fab fa-facebook "></i>
+          </a>
+          <a class="footer_icon_linkk ">
+            <i class="fab fa-youtube "></i>
+          </a>
+          <hr class="text-light">
+          <a href="#" class="d-flex align-items-center text-light pt-3">
+            <i class="fas fa-globe internet-icon pe-2"></i>
+            English (United States)
+            <i class="fas fa-chevron-right ps-2"></i>
+          </a>
+        </div>
+
+      </div>
+      <!-- </div> -->
+  </footer>
+
+
+
+
+
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+    <script src="Assets/js/main.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+
+  
+
 </body>
 
 </html>
